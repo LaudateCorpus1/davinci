@@ -394,8 +394,8 @@ __webpack_require__.r(__webpack_exports__);
   "v-4ad616bb": () => __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/directory-structure.md */ "./docs/guide/basics/directory-structure.md")),
   "v-3ba6515b": () => __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/openapi-definitions.md */ "./docs/guide/basics/openapi-definitions.md")),
   "v-6d7ce972": () => __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/swagger-ui.md */ "./docs/guide/basics/swagger-ui.md")),
-  "v-ed006172": () => __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./docs/guide/database/mongoose.md */ "./docs/guide/database/mongoose.md")),
   "v-43676547": () => __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/controllers.md */ "./docs/guide/graphql/controllers.md")),
+  "v-ed006172": () => __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./docs/guide/database/mongoose.md */ "./docs/guide/database/mongoose.md")),
   "v-136c9927": () => __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/getting-started.md */ "./docs/guide/graphql/getting-started.md")) 
 });
 
@@ -516,19 +516,19 @@ const routes = [
     },
   },
   {
-    name: "v-ed006172",
-    path: "/guide/database/mongoose.html",
-    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-ed006172").then(next)
-    },
-  },
-  {
     name: "v-43676547",
     path: "/guide/graphql/controllers.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     beforeEnter: (to, from, next) => {
       Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-43676547").then(next)
+    },
+  },
+  {
+    name: "v-ed006172",
+    path: "/guide/database/mongoose.html",
+    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    beforeEnter: (to, from, next) => {
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-ed006172").then(next)
     },
   },
   {
@@ -719,6 +719,22 @@ const siteData = {
       "lastUpdated": "8/28/2020, 9:31:55 AM"
     },
     {
+      "title": "GraphQL Controllers",
+      "frontmatter": {},
+      "regularPath": "/guide/graphql/controllers.html",
+      "relativePath": "guide/graphql/controllers.md",
+      "key": "v-43676547",
+      "path": "/guide/graphql/controllers.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Implements GraphQL controller methods",
+          "slug": "implements-graphql-controller-methods"
+        }
+      ],
+      "lastUpdated": "5/8/2020, 5:11:59 PM"
+    },
+    {
       "title": "@davinci/mongoose",
       "frontmatter": {},
       "regularPath": "/guide/database/mongoose.html",
@@ -748,22 +764,6 @@ const siteData = {
         }
       ],
       "lastUpdated": "4/16/2020, 10:22:13 AM"
-    },
-    {
-      "title": "GraphQL Controllers",
-      "frontmatter": {},
-      "regularPath": "/guide/graphql/controllers.html",
-      "relativePath": "guide/graphql/controllers.md",
-      "key": "v-43676547",
-      "path": "/guide/graphql/controllers.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Implements GraphQL controller methods",
-          "slug": "implements-graphql-controller-methods"
-        }
-      ],
-      "lastUpdated": "5/8/2020, 5:11:59 PM"
     },
     {
       "title": "Getting Started",
@@ -1148,7 +1148,7 @@ const { app, router } = Object(_app__WEBPACK_IMPORTED_MODULE_0__["createApp"])(f
 
 window.__VUEPRESS__ = {
   version: "1.3.0",
-  hash: "6f62338"
+  hash: "f074594"
 }
 
 router.onReady(() => {
@@ -14750,4 +14750,4 @@ module.exports = __webpack_require__(/*! /home/circleci/project/node_modules/@vu
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.e548a8ea.js.map
+//# sourceMappingURL=app.606612d2.js.map
