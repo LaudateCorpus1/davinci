@@ -393,9 +393,9 @@ __webpack_require__.r(__webpack_exports__);
   "v-7831c59a": () => __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/controllers.md */ "./docs/guide/basics/controllers.md")),
   "v-4ad616bb": () => __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/directory-structure.md */ "./docs/guide/basics/directory-structure.md")),
   "v-3ba6515b": () => __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/openapi-definitions.md */ "./docs/guide/basics/openapi-definitions.md")),
+  "v-ed006172": () => __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./docs/guide/database/mongoose.md */ "./docs/guide/database/mongoose.md")),
   "v-6d7ce972": () => __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/swagger-ui.md */ "./docs/guide/basics/swagger-ui.md")),
   "v-43676547": () => __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/controllers.md */ "./docs/guide/graphql/controllers.md")),
-  "v-ed006172": () => __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./docs/guide/database/mongoose.md */ "./docs/guide/database/mongoose.md")),
   "v-136c9927": () => __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/getting-started.md */ "./docs/guide/graphql/getting-started.md")) 
 });
 
@@ -508,6 +508,14 @@ const routes = [
     },
   },
   {
+    name: "v-ed006172",
+    path: "/guide/database/mongoose.html",
+    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    beforeEnter: (to, from, next) => {
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-ed006172").then(next)
+    },
+  },
+  {
     name: "v-6d7ce972",
     path: "/guide/basics/swagger-ui.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -521,14 +529,6 @@ const routes = [
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     beforeEnter: (to, from, next) => {
       Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-43676547").then(next)
-    },
-  },
-  {
-    name: "v-ed006172",
-    path: "/guide/database/mongoose.html",
-    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-ed006172").then(next)
     },
   },
   {
@@ -703,6 +703,37 @@ const siteData = {
       "lastUpdated": "11/13/2019, 1:36:59 PM"
     },
     {
+      "title": "@davinci/mongoose",
+      "frontmatter": {},
+      "regularPath": "/guide/database/mongoose.html",
+      "relativePath": "guide/database/mongoose.md",
+      "key": "v-ed006172",
+      "path": "/guide/database/mongoose.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Installation",
+          "slug": "installation"
+        },
+        {
+          "level": 2,
+          "title": "Define the Schema",
+          "slug": "define-the-schema"
+        },
+        {
+          "level": 2,
+          "title": "Create the Model",
+          "slug": "create-the-model"
+        },
+        {
+          "level": 2,
+          "title": "Hooks",
+          "slug": "hooks"
+        }
+      ],
+      "lastUpdated": "4/16/2020, 10:22:13 AM"
+    },
+    {
       "title": "Swagger UI",
       "frontmatter": {},
       "regularPath": "/guide/basics/swagger-ui.html",
@@ -733,37 +764,6 @@ const siteData = {
         }
       ],
       "lastUpdated": "5/8/2020, 5:11:59 PM"
-    },
-    {
-      "title": "@davinci/mongoose",
-      "frontmatter": {},
-      "regularPath": "/guide/database/mongoose.html",
-      "relativePath": "guide/database/mongoose.md",
-      "key": "v-ed006172",
-      "path": "/guide/database/mongoose.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Installation",
-          "slug": "installation"
-        },
-        {
-          "level": 2,
-          "title": "Define the Schema",
-          "slug": "define-the-schema"
-        },
-        {
-          "level": 2,
-          "title": "Create the Model",
-          "slug": "create-the-model"
-        },
-        {
-          "level": 2,
-          "title": "Hooks",
-          "slug": "hooks"
-        }
-      ],
-      "lastUpdated": "4/16/2020, 10:22:13 AM"
     },
     {
       "title": "Getting Started",
@@ -1148,7 +1148,7 @@ const { app, router } = Object(_app__WEBPACK_IMPORTED_MODULE_0__["createApp"])(f
 
 window.__VUEPRESS__ = {
   version: "1.3.0",
-  hash: "f074594"
+  hash: "86d4ff7"
 }
 
 router.onReady(() => {
@@ -14750,4 +14750,4 @@ module.exports = __webpack_require__(/*! /home/circleci/project/node_modules/@vu
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.606612d2.js.map
+//# sourceMappingURL=app.766b365a.js.map
