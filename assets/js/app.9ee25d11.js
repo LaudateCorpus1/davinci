@@ -390,8 +390,8 @@ __webpack_require__.r(__webpack_exports__);
   "v-76bd1ed8": () => __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./docs/README.md */ "./docs/README.md")),
   "v-988e000c": () => __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./docs/guide/README.md */ "./docs/guide/README.md")),
   "v-6ffafe83": () => __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/context.md */ "./docs/guide/basics/context.md")),
-  "v-7831c59a": () => __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/controllers.md */ "./docs/guide/basics/controllers.md")),
   "v-4ad616bb": () => __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/directory-structure.md */ "./docs/guide/basics/directory-structure.md")),
+  "v-7831c59a": () => __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/controllers.md */ "./docs/guide/basics/controllers.md")),
   "v-3ba6515b": () => __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/openapi-definitions.md */ "./docs/guide/basics/openapi-definitions.md")),
   "v-6d7ce972": () => __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/swagger-ui.md */ "./docs/guide/basics/swagger-ui.md")),
   "v-ed006172": () => __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./docs/guide/database/mongoose.md */ "./docs/guide/database/mongoose.md")),
@@ -484,19 +484,19 @@ const routes = [
     },
   },
   {
-    name: "v-7831c59a",
-    path: "/guide/basics/controllers.html",
-    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-7831c59a").then(next)
-    },
-  },
-  {
     name: "v-4ad616bb",
     path: "/guide/basics/directory-structure.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     beforeEnter: (to, from, next) => {
       Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-4ad616bb").then(next)
+    },
+  },
+  {
+    name: "v-7831c59a",
+    path: "/guide/basics/controllers.html",
+    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    beforeEnter: (to, from, next) => {
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-7831c59a").then(next)
     },
   },
   {
@@ -652,6 +652,15 @@ const siteData = {
       "lastUpdated": "1/26/2021, 10:25:57 AM"
     },
     {
+      "title": "Directory Structure",
+      "frontmatter": {},
+      "regularPath": "/guide/basics/directory-structure.html",
+      "relativePath": "guide/basics/directory-structure.md",
+      "key": "v-4ad616bb",
+      "path": "/guide/basics/directory-structure.html",
+      "lastUpdated": "11/14/2019, 9:10:13 AM"
+    },
+    {
       "title": "Controllers",
       "frontmatter": {},
       "regularPath": "/guide/basics/controllers.html",
@@ -671,15 +680,6 @@ const siteData = {
         }
       ],
       "lastUpdated": "11/13/2019, 1:36:59 PM"
-    },
-    {
-      "title": "Directory Structure",
-      "frontmatter": {},
-      "regularPath": "/guide/basics/directory-structure.html",
-      "relativePath": "guide/basics/directory-structure.md",
-      "key": "v-4ad616bb",
-      "path": "/guide/basics/directory-structure.html",
-      "lastUpdated": "11/14/2019, 9:10:13 AM"
     },
     {
       "title": "OpenAPI Definitions",
@@ -1148,7 +1148,7 @@ const { app, router } = Object(_app__WEBPACK_IMPORTED_MODULE_0__["createApp"])(f
 
 window.__VUEPRESS__ = {
   version: "1.3.0",
-  hash: "4e93a39"
+  hash: "968d7f0"
 }
 
 router.onReady(() => {
@@ -14750,4 +14750,4 @@ module.exports = __webpack_require__(/*! /home/circleci/project/node_modules/@vu
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.a07f2eeb.js.map
+//# sourceMappingURL=app.9ee25d11.js.map
