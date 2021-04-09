@@ -391,12 +391,12 @@ __webpack_require__.r(__webpack_exports__);
   "v-988e000c": () => __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./docs/guide/README.md */ "./docs/guide/README.md")),
   "v-6ffafe83": () => __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/context.md */ "./docs/guide/basics/context.md")),
   "v-7831c59a": () => __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/controllers.md */ "./docs/guide/basics/controllers.md")),
+  "v-4ad616bb": () => __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/directory-structure.md */ "./docs/guide/basics/directory-structure.md")),
   "v-3ba6515b": () => __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/openapi-definitions.md */ "./docs/guide/basics/openapi-definitions.md")),
   "v-6d7ce972": () => __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/swagger-ui.md */ "./docs/guide/basics/swagger-ui.md")),
-  "v-4ad616bb": () => __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/directory-structure.md */ "./docs/guide/basics/directory-structure.md")),
-  "v-136c9927": () => __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/getting-started.md */ "./docs/guide/graphql/getting-started.md")),
+  "v-ed006172": () => __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./docs/guide/database/mongoose.md */ "./docs/guide/database/mongoose.md")),
   "v-43676547": () => __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/controllers.md */ "./docs/guide/graphql/controllers.md")),
-  "v-ed006172": () => __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./docs/guide/database/mongoose.md */ "./docs/guide/database/mongoose.md")) 
+  "v-136c9927": () => __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/getting-started.md */ "./docs/guide/graphql/getting-started.md")) 
 });
 
 /***/ }),
@@ -492,6 +492,14 @@ const routes = [
     },
   },
   {
+    name: "v-4ad616bb",
+    path: "/guide/basics/directory-structure.html",
+    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    beforeEnter: (to, from, next) => {
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-4ad616bb").then(next)
+    },
+  },
+  {
     name: "v-3ba6515b",
     path: "/guide/basics/openapi-definitions.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -508,19 +516,11 @@ const routes = [
     },
   },
   {
-    name: "v-4ad616bb",
-    path: "/guide/basics/directory-structure.html",
+    name: "v-ed006172",
+    path: "/guide/database/mongoose.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-4ad616bb").then(next)
-    },
-  },
-  {
-    name: "v-136c9927",
-    path: "/guide/graphql/getting-started.html",
-    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-136c9927").then(next)
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-ed006172").then(next)
     },
   },
   {
@@ -532,11 +532,11 @@ const routes = [
     },
   },
   {
-    name: "v-ed006172",
-    path: "/guide/database/mongoose.html",
+    name: "v-136c9927",
+    path: "/guide/graphql/getting-started.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-ed006172").then(next)
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-136c9927").then(next)
     },
   },
   {
@@ -673,6 +673,15 @@ const siteData = {
       "lastUpdated": "11/13/2019, 1:36:59 PM"
     },
     {
+      "title": "Directory Structure",
+      "frontmatter": {},
+      "regularPath": "/guide/basics/directory-structure.html",
+      "relativePath": "guide/basics/directory-structure.md",
+      "key": "v-4ad616bb",
+      "path": "/guide/basics/directory-structure.html",
+      "lastUpdated": "11/14/2019, 9:10:13 AM"
+    },
+    {
       "title": "OpenAPI Definitions",
       "frontmatter": {},
       "regularPath": "/guide/basics/openapi-definitions.html",
@@ -710,13 +719,51 @@ const siteData = {
       "lastUpdated": "8/28/2020, 9:31:55 AM"
     },
     {
-      "title": "Directory Structure",
+      "title": "@davinci/mongoose",
       "frontmatter": {},
-      "regularPath": "/guide/basics/directory-structure.html",
-      "relativePath": "guide/basics/directory-structure.md",
-      "key": "v-4ad616bb",
-      "path": "/guide/basics/directory-structure.html",
-      "lastUpdated": "11/14/2019, 9:10:13 AM"
+      "regularPath": "/guide/database/mongoose.html",
+      "relativePath": "guide/database/mongoose.md",
+      "key": "v-ed006172",
+      "path": "/guide/database/mongoose.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Installation",
+          "slug": "installation"
+        },
+        {
+          "level": 2,
+          "title": "Define the Schema",
+          "slug": "define-the-schema"
+        },
+        {
+          "level": 2,
+          "title": "Create the Model",
+          "slug": "create-the-model"
+        },
+        {
+          "level": 2,
+          "title": "Hooks",
+          "slug": "hooks"
+        }
+      ],
+      "lastUpdated": "3/1/2021, 9:30:45 AM"
+    },
+    {
+      "title": "GraphQL Controllers",
+      "frontmatter": {},
+      "regularPath": "/guide/graphql/controllers.html",
+      "relativePath": "guide/graphql/controllers.md",
+      "key": "v-43676547",
+      "path": "/guide/graphql/controllers.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Implements GraphQL controller methods",
+          "slug": "implements-graphql-controller-methods"
+        }
+      ],
+      "lastUpdated": "5/8/2020, 5:11:59 PM"
     },
     {
       "title": "Getting Started",
@@ -753,53 +800,6 @@ const siteData = {
         }
       ],
       "lastUpdated": "5/8/2020, 5:11:59 PM"
-    },
-    {
-      "title": "GraphQL Controllers",
-      "frontmatter": {},
-      "regularPath": "/guide/graphql/controllers.html",
-      "relativePath": "guide/graphql/controllers.md",
-      "key": "v-43676547",
-      "path": "/guide/graphql/controllers.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Implements GraphQL controller methods",
-          "slug": "implements-graphql-controller-methods"
-        }
-      ],
-      "lastUpdated": "5/8/2020, 5:11:59 PM"
-    },
-    {
-      "title": "@davinci/mongoose",
-      "frontmatter": {},
-      "regularPath": "/guide/database/mongoose.html",
-      "relativePath": "guide/database/mongoose.md",
-      "key": "v-ed006172",
-      "path": "/guide/database/mongoose.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Installation",
-          "slug": "installation"
-        },
-        {
-          "level": 2,
-          "title": "Define the Schema",
-          "slug": "define-the-schema"
-        },
-        {
-          "level": 2,
-          "title": "Create the Model",
-          "slug": "create-the-model"
-        },
-        {
-          "level": 2,
-          "title": "Hooks",
-          "slug": "hooks"
-        }
-      ],
-      "lastUpdated": "3/1/2021, 9:30:45 AM"
     }
   ],
   "themeConfig": {
@@ -1148,7 +1148,7 @@ const { app, router } = Object(_app__WEBPACK_IMPORTED_MODULE_0__["createApp"])(f
 
 window.__VUEPRESS__ = {
   version: "1.3.0",
-  hash: "4792ac1"
+  hash: "77ee485"
 }
 
 router.onReady(() => {
@@ -14750,4 +14750,4 @@ module.exports = __webpack_require__(/*! /home/circleci/project/node_modules/@vu
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.b79e01ca.js.map
+//# sourceMappingURL=app.bd782af3.js.map
