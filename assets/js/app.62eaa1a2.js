@@ -408,14 +408,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   "v-76bd1ed8": () => __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ./docs/README.md */ "./docs/README.md")),
   "v-988e000c": () => __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ./docs/guide/README.md */ "./docs/guide/README.md")),
-  "v-7831c59a": () => __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/controllers.md */ "./docs/guide/basics/controllers.md")),
-  "v-4ad616bb": () => __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/directory-structure.md */ "./docs/guide/basics/directory-structure.md")),
   "v-6ffafe83": () => __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/context.md */ "./docs/guide/basics/context.md")),
   "v-3ba6515b": () => __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/openapi-definitions.md */ "./docs/guide/basics/openapi-definitions.md")),
   "v-6d7ce972": () => __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/swagger-ui.md */ "./docs/guide/basics/swagger-ui.md")),
-  "v-43676547": () => __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/controllers.md */ "./docs/guide/graphql/controllers.md")),
+  "v-4ad616bb": () => __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/directory-structure.md */ "./docs/guide/basics/directory-structure.md")),
   "v-ed006172": () => __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ./docs/guide/database/mongoose.md */ "./docs/guide/database/mongoose.md")),
-  "v-136c9927": () => __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/getting-started.md */ "./docs/guide/graphql/getting-started.md")) 
+  "v-43676547": () => __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/controllers.md */ "./docs/guide/graphql/controllers.md")),
+  "v-136c9927": () => __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ./docs/guide/graphql/getting-started.md */ "./docs/guide/graphql/getting-started.md")),
+  "v-7831c59a": () => __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ./docs/guide/basics/controllers.md */ "./docs/guide/basics/controllers.md")) 
 });
 
 /***/ }),
@@ -495,22 +495,6 @@ const routes = [
     redirect: "/guide/"
   },
   {
-    name: "v-7831c59a",
-    path: "/guide/basics/controllers.html",
-    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-7831c59a").then(next)
-    },
-  },
-  {
-    name: "v-4ad616bb",
-    path: "/guide/basics/directory-structure.html",
-    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-4ad616bb").then(next)
-    },
-  },
-  {
     name: "v-6ffafe83",
     path: "/guide/basics/context.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
@@ -535,11 +519,11 @@ const routes = [
     },
   },
   {
-    name: "v-43676547",
-    path: "/guide/graphql/controllers.html",
+    name: "v-4ad616bb",
+    path: "/guide/basics/directory-structure.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     beforeEnter: (to, from, next) => {
-      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-43676547").then(next)
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-4ad616bb").then(next)
     },
   },
   {
@@ -551,11 +535,27 @@ const routes = [
     },
   },
   {
+    name: "v-43676547",
+    path: "/guide/graphql/controllers.html",
+    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    beforeEnter: (to, from, next) => {
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-43676547").then(next)
+    },
+  },
+  {
     name: "v-136c9927",
     path: "/guide/graphql/getting-started.html",
     component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     beforeEnter: (to, from, next) => {
       Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-136c9927").then(next)
+    },
+  },
+  {
+    name: "v-7831c59a",
+    path: "/guide/basics/controllers.html",
+    component: _home_circleci_project_node_modules_vuepress_core_lib_client_components_GlobalLayout_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
+    beforeEnter: (to, from, next) => {
+      Object(_app_util__WEBPACK_IMPORTED_MODULE_0__["ensureAsyncComponentsLoaded"])("Layout", "v-7831c59a").then(next)
     },
   },
   {
@@ -650,36 +650,6 @@ const siteData = {
       "lastUpdated": "11/22/2019, 2:26:47 PM"
     },
     {
-      "title": "Controllers",
-      "frontmatter": {},
-      "regularPath": "/guide/basics/controllers.html",
-      "relativePath": "guide/basics/controllers.md",
-      "key": "v-7831c59a",
-      "path": "/guide/basics/controllers.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Implements controller methods",
-          "slug": "implements-controller-methods"
-        },
-        {
-          "level": 2,
-          "title": "Advanced cases (AKA: use express primitives)",
-          "slug": "advanced-cases-aka-use-express-primitives"
-        }
-      ],
-      "lastUpdated": "11/13/2019, 1:36:59 PM"
-    },
-    {
-      "title": "Directory Structure",
-      "frontmatter": {},
-      "regularPath": "/guide/basics/directory-structure.html",
-      "relativePath": "guide/basics/directory-structure.md",
-      "key": "v-4ad616bb",
-      "path": "/guide/basics/directory-structure.html",
-      "lastUpdated": "11/14/2019, 9:10:13 AM"
-    },
-    {
       "title": "Context",
       "frontmatter": {},
       "regularPath": "/guide/basics/context.html",
@@ -738,20 +708,13 @@ const siteData = {
       "lastUpdated": "8/28/2020, 9:31:55 AM"
     },
     {
-      "title": "GraphQL Controllers",
+      "title": "Directory Structure",
       "frontmatter": {},
-      "regularPath": "/guide/graphql/controllers.html",
-      "relativePath": "guide/graphql/controllers.md",
-      "key": "v-43676547",
-      "path": "/guide/graphql/controllers.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Implements GraphQL controller methods",
-          "slug": "implements-graphql-controller-methods"
-        }
-      ],
-      "lastUpdated": "5/8/2020, 5:11:59 PM"
+      "regularPath": "/guide/basics/directory-structure.html",
+      "relativePath": "guide/basics/directory-structure.md",
+      "key": "v-4ad616bb",
+      "path": "/guide/basics/directory-structure.html",
+      "lastUpdated": "11/14/2019, 9:10:13 AM"
     },
     {
       "title": "@davinci/mongoose",
@@ -783,6 +746,22 @@ const siteData = {
         }
       ],
       "lastUpdated": "3/1/2021, 9:30:45 AM"
+    },
+    {
+      "title": "GraphQL Controllers",
+      "frontmatter": {},
+      "regularPath": "/guide/graphql/controllers.html",
+      "relativePath": "guide/graphql/controllers.md",
+      "key": "v-43676547",
+      "path": "/guide/graphql/controllers.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Implements GraphQL controller methods",
+          "slug": "implements-graphql-controller-methods"
+        }
+      ],
+      "lastUpdated": "5/8/2020, 5:11:59 PM"
     },
     {
       "title": "Getting Started",
@@ -819,6 +798,27 @@ const siteData = {
         }
       ],
       "lastUpdated": "5/8/2020, 5:11:59 PM"
+    },
+    {
+      "title": "Controllers",
+      "frontmatter": {},
+      "regularPath": "/guide/basics/controllers.html",
+      "relativePath": "guide/basics/controllers.md",
+      "key": "v-7831c59a",
+      "path": "/guide/basics/controllers.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Implements controller methods",
+          "slug": "implements-controller-methods"
+        },
+        {
+          "level": 2,
+          "title": "Advanced cases (AKA: use express primitives)",
+          "slug": "advanced-cases-aka-use-express-primitives"
+        }
+      ],
+      "lastUpdated": "11/13/2019, 1:36:59 PM"
     }
   ],
   "themeConfig": {
@@ -1167,7 +1167,7 @@ const { app, router } = Object(_app__WEBPACK_IMPORTED_MODULE_0__["createApp"])(f
 
 window.__VUEPRESS__ = {
   version: "1.3.0",
-  hash: "a73deb3"
+  hash: "8be8837"
 }
 
 router.onReady(() => {
@@ -14789,4 +14789,4 @@ module.exports = __webpack_require__(/*! /home/circleci/project/node_modules/@vu
 /***/ })
 
 /******/ });
-//# sourceMappingURL=app.e7461c54.js.map
+//# sourceMappingURL=app.62eaa1a2.js.map
