@@ -13,7 +13,8 @@ import {
 	FieldDecoratorOptionsFactory,
 	IFieldDecoratorOptionsFactoryArgs,
 	IResolverDecoratorMetadata,
-	ResolverMiddleware
+	ResolverMiddleware,
+	IExternalFieldResolverDecoratorMetadata
 } from '../types';
 
 /**
@@ -121,29 +122,18 @@ export function arg(options?: IArgOptions): ParameterDecorator {
 export function fieldResolver<T = {}>(
 	resolverOf: ClassType,
 	fieldName: keyof T,
-	returnType: ClassType | ClassType[]
-): Function {
-	return function(prototype: object, methodName: string, index) {
-		// get the existing metadata props
-		const methodParameters =
-			Reflector.getMetadata('davinci:graphql:field-resolvers', resolverOf.prototype.constructor) || [];
-		const paramtypes = Reflector.getMetadata('design:paramtypes', prototype, methodName);
-		const isAlreadySet = !!_.find(methodParameters, { methodName, index });
-		if (isAlreadySet) return;
-
-		methodParameters.unshift({
+	returnType: ClassType | [ClassType]
+): MethodDecorator {
+	return function(prototype: object, methodName: string) {
+		const resolver: IExternalFieldResolverDecoratorMetadata = {
 			prototype,
 			methodName,
 			resolverOf,
-			index,
 			fieldName,
 			returnType,
-			// name,
-			// opts: options,
-			handler: prototype[methodName],
-			type: paramtypes && paramtypes[index]
-		});
-		Reflector.defineMetadata('davinci:graphql:field-resolvers', methodParameters, resolverOf.prototype.constructor);
+			handler: prototype[methodName]
+		};
+		Reflector.pushMetadata('davinci:graphql:field-resolvers', resolver, resolverOf.prototype.constructor);
 	};
 }
 
