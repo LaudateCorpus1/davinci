@@ -3,6 +3,145 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/HPInc/davinci/compare/@davinci/core@2.1.2...@davinci/core@2.2.0) (2022-12-16)
+
+
+### Features
+
+* entity definition json walker ([#172](https://github.com/HPInc/davinci/issues/172)) ([da0a80d](https://github.com/HPInc/davinci/commit/da0a80dde0dee79bb3a21407afc0ea70909fd30b))
+
+
+
+
+
+## [2.1.2](https://github.com/HPInc/davinci/compare/@davinci/core@2.1.1...@davinci/core@2.1.2) (2022-12-09)
+
+**Note:** Version bump only for package @davinci/core
+
+
+
+
+
+## [2.1.1](https://github.com/HPInc/davinci/compare/@davinci/core@2.1.0...@davinci/core@2.1.1) (2022-12-02)
+
+
+### Performance Improvements
+
+* optimizing dependencies and compiled code for size ([#170](https://github.com/HPInc/davinci/issues/170)) ([9b7bd96](https://github.com/HPInc/davinci/commit/9b7bd96654479b8dd03faeb56e70476b15d4420f))
+
+
+
+
+
+# [2.1.0](https://github.com/HPInc/davinci/compare/@davinci/core@1.11.0...@davinci/core@2.1.0) (2022-12-01)
+
+
+### Features
+
+* DaVinci v2 ([6a10e09](https://github.com/HPInc/davinci/commit/6a10e09e22c8561ee8d54c93d4fb8c7fe0d564a9))
+
+
+
+
+
+## [2.0.1](https://github.com/HPInc/davinci/compare/@davinci/core@2.0.0-next.18...@davinci/core@2.0.1) (2022-12-01)
+
+**Note:** Version bump only for package @davinci/core
+
+
+
+
+
+# [2.0.0](https://github.com/HPInc/davinci/compare/@davinci/core@2.0.0-next.18...@davinci/core@2.0.0) (2022-12-01)
+
+**Note:** Version bump only for package @davinci/core
+
+
+
+
+
+# [1.11.0](https://github.com/HPInc/davinci/compare/@davinci/core@1.10.3...@davinci/core@1.11.0) (2022-10-05)
+
+
+### Features
+
+* **mongoose:** upgraded mongoose dependency from v5 to v6 and renamed context to davinciContext to avoid type collisions with mongoose context ([4c91957](https://github.com/HPInc/davinci/commit/4c919577e9fb17aa216bed24f60e99778ba17d7f))
+
+
+
+
+
+## [1.10.3](https://github.com/HPInc/davinci/compare/@davinci/core@1.10.2...@davinci/core@1.10.3) (2022-10-03)
+
+**Note:** Version bump only for package @davinci/core
+
+
+
+
+
+## [1.10.2](https://github.com/HPInc/davinci/compare/@davinci/core@1.10.1...@davinci/core@1.10.2) (2022-04-13)
+
+
+### Bug Fixes
+
+* added nullish check ([491d585](https://github.com/HPInc/davinci/commit/491d585ba351901ef6e703fe075c403e5a41a3ec))
+* createMongooseController now produces definitions with prefixed names ([d778d11](https://github.com/HPInc/davinci/commit/d778d11a907884eb19e421bd783ceb7ecbc8a88f))
+
+
+
+
+
+## [1.10.1](https://github.com/HPInc/davinci/compare/@davinci/core@1.10.0...@davinci/core@1.10.1) (2022-04-08)
+
+
+### Bug Fixes
+
+* ajv custom instance parameters ([d9a2cfb](https://github.com/HPInc/davinci/commit/d9a2cfb02e4366a79f5b294c14cb32de6a34f626))
+* cache key to include definitions ([80151ad](https://github.com/HPInc/davinci/commit/80151ada17a48691fcac5b770b73de90e52f44fe))
+
+
+### Reverts
+
+* no need to include definitions (schemas should not share same name) ([2e3e6de](https://github.com/HPInc/davinci/commit/2e3e6de3bd415203d26b73cb00ee841f88fdadad))
+
+
+
+
+
+# [1.10.0](https://github.com/HPInc/davinci/compare/@davinci/core@1.9.2...@davinci/core@1.10.0) (2022-04-07)
+
+
+### Bug Fixes
+
+* davinciHandler now is a named function ([f2b6cb5](https://github.com/HPInc/davinci/commit/f2b6cb585189440d7b27a18da1f1ab41567ca945))
+* fixed tests ([6b568f3](https://github.com/HPInc/davinci/commit/6b568f3b12a2530282ba64b694e13c84fb493412))
+* include parameter in cache ([0db15a8](https://github.com/HPInc/davinci/commit/0db15a8c9d13911ec82ca4e2ebafd21223f13bcf))
+* tests ([d7554fb](https://github.com/HPInc/davinci/commit/d7554fbb8097a5ee46398994a5771f96a3a7b668))
+
+
+### Features
+
+* added ajv instance and schema caching ([0ff3edc](https://github.com/HPInc/davinci/commit/0ff3edc708518ee4155597cc9d780b9e5c852946))
+* delay ajv instantiation ([fa964ad](https://github.com/HPInc/davinci/commit/fa964ad896a280e79c22b7181809668af4087a52))
+
+
+
+
+
+## [1.9.2](https://github.com/HPInc/davinci/compare/@davinci/core@1.9.1...@davinci/core@1.9.2) (2022-03-24)
+
+
+### Bug Fixes
+
+* test ([a0ddcc8](https://github.com/HPInc/davinci/commit/a0ddcc82e79d605cf5a6b03f32897c0b9bcfde59))
+* typo ([1deca06](https://github.com/HPInc/davinci/commit/1deca0693db8adca937909d03e9a35c2c316ff2f))
+* typo ([ecee118](https://github.com/HPInc/davinci/commit/ecee1185383e6b288cb57f7a8cd29eb8c274a48b))
+* use latest createRouter in examples and update doc ([4a9c56b](https://github.com/HPInc/davinci/commit/4a9c56b4e59898e1a9b5d0955e8ede7aefd4c87a))
+
+
+
+
+
 ## [1.9.1](https://github.com/HPInc/davinci/compare/@davinci/core@1.9.0...@davinci/core@1.9.1) (2022-01-21)
 
 
