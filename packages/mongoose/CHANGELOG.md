@@ -3,6 +3,142 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.2](https://github.com/HPInc/davinci/compare/@davinci/mongoose@2.2.1...@davinci/mongoose@2.2.2) (2022-12-16)
+
+**Note:** Version bump only for package @davinci/mongoose
+
+
+
+
+
+## [2.2.1](https://github.com/HPInc/davinci/compare/@davinci/mongoose@2.2.0...@davinci/mongoose@2.2.1) (2022-12-09)
+
+**Note:** Version bump only for package @davinci/mongoose
+
+
+
+
+
+# [2.2.0](https://github.com/HPInc/davinci/compare/@davinci/mongoose@2.1.1...@davinci/mongoose@2.2.0) (2022-12-05)
+
+
+### Features
+
+* allowing [@mgoose](https://github.com/mgoose).virtual on class properties ([#171](https://github.com/HPInc/davinci/issues/171)) ([f98d5ea](https://github.com/HPInc/davinci/commit/f98d5ea216e058ccffade47695dc813080719ef7))
+
+
+
+
+
+## [2.1.1](https://github.com/HPInc/davinci/compare/@davinci/mongoose@2.1.0...@davinci/mongoose@2.1.1) (2022-12-02)
+
+
+### Performance Improvements
+
+* optimizing dependencies and compiled code for size ([#170](https://github.com/HPInc/davinci/issues/170)) ([9b7bd96](https://github.com/HPInc/davinci/commit/9b7bd96654479b8dd03faeb56e70476b15d4420f))
+
+
+
+
+
+# [2.1.0](https://github.com/HPInc/davinci/compare/@davinci/mongoose@1.1.0...@davinci/mongoose@2.1.0) (2022-12-01)
+
+
+### Features
+
+* DaVinci v2 ([6a10e09](https://github.com/HPInc/davinci/commit/6a10e09e22c8561ee8d54c93d4fb8c7fe0d564a9))
+
+
+
+
+
+## [2.0.1](https://github.com/HPInc/davinci/compare/@davinci/mongoose@2.0.0-next.20...@davinci/mongoose@2.0.1) (2022-12-01)
+
+**Note:** Version bump only for package @davinci/mongoose
+
+
+
+
+
+# [2.0.0](https://github.com/HPInc/davinci/compare/@davinci/mongoose@2.0.0-next.20...@davinci/mongoose@2.0.0) (2022-12-01)
+
+**Note:** Version bump only for package @davinci/mongoose
+
+
+
+
+
+# [1.1.0](https://github.com/HPInc/davinci/compare/@davinci/mongoose@0.19.0...@davinci/mongoose@1.1.0) (2022-10-05)
+
+
+### Features
+
+* **mongoose:** upgraded mongoose dependency from v5 to v6 and renamed context to davinciContext to avoid type collisions with mongoose context ([4c91957](https://github.com/HPInc/davinci/commit/4c919577e9fb17aa216bed24f60e99778ba17d7f))
+
+
+
+
+
+
+# [0.18.0](https://github.com/HPInc/davinci/compare/@davinci/mongoose@0.17.13...@davinci/mongoose@0.18.0) (2022-06-15)
+
+
+### Bug Fixes
+
+* allow estimated doc count for mongoose find ([0402621](https://github.com/HPInc/davinci/commit/04026213105907f0f0a81ef0b0b193590ab13259))
+* make useEstimatedDocumentCount optional ([677965d](https://github.com/HPInc/davinci/commit/677965da6facff1442879438486e771fa69bfed4))
+* remove unused where ([2cbf47b](https://github.com/HPInc/davinci/commit/2cbf47b5ebab4c042f88816460d4aa694ce5d16c))
+
+
+### Features
+
+* introduced useEstimatedDocumentCount parameter ([6c2397c](https://github.com/HPInc/davinci/commit/6c2397c630e1cfed8865e0cbd0321ab786e918a1))
+
+
+### BREAKING CHANGES
+
+* now using the estimated document count by default
+
+
+
+
+
+## [0.17.13](https://github.com/HPInc/davinci/compare/@davinci/mongoose@0.17.12...@davinci/mongoose@0.17.13) (2022-04-13)
+
+
+### Bug Fixes
+
+* added correct single populate type ([c543e56](https://github.com/HPInc/davinci/commit/c543e56e6a3c76e3b188b2aaa6e672ed97a94153))
+* createMongooseController now produces definitions with prefixed names ([d778d11](https://github.com/HPInc/davinci/commit/d778d11a907884eb19e421bd783ceb7ecbc8a88f))
+
+
+
+
+
+## [0.17.12](https://github.com/HPInc/davinci/compare/@davinci/mongoose@0.17.11...@davinci/mongoose@0.17.12) (2022-04-08)
+
+**Note:** Version bump only for package @davinci/mongoose
+
+
+
+
+
+## [0.17.11](https://github.com/HPInc/davinci/compare/@davinci/mongoose@0.17.10...@davinci/mongoose@0.17.11) (2022-04-07)
+
+**Note:** Version bump only for package @davinci/mongoose
+
+
+
+
+
+## [0.17.10](https://github.com/HPInc/davinci/compare/@davinci/mongoose@0.17.9...@davinci/mongoose@0.17.10) (2022-03-24)
+
+**Note:** Version bump only for package @davinci/mongoose
+
+
+
+
+
 ## [0.17.9](https://github.com/HPInc/davinci/compare/@davinci/mongoose@0.17.8...@davinci/mongoose@0.17.9) (2022-01-27)
 
 
